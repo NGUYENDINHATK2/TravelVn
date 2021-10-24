@@ -102,7 +102,10 @@
 
 
 @media screen and (max-width: 440px){
-	
+	.header-index{
+        height:800px;
+        padding-bottom: 30px;
+    }
     .menuindex{
         padding-left: 0px;
         padding-right: 0px;
@@ -124,6 +127,18 @@
     .icon-search-tour{
         display: none;
     }
+    .quesion{
+        display: none;
+    }
+   .datepick{
+       margin-bottom: 10px;
+   }
+   .addressgo{
+    margin-bottom: 10px;
+   }
+   .peoplehotel1 .peoplehotel2{
+       padding: 5px;
+   }
 
 }/*max-width:400px*/
 

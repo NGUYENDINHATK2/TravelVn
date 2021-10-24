@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\demo;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,13 +17,11 @@ use Illuminate\Support\Facades\Auth;
 Route::get('/', function () {
     return view('index');
 });
-Route::get('/demo', function () {
-    return view('demo');
-});
+Route::get('/demo', [App\Http\Controllers\demo::class, 'index']);
+
 Route::get('/cc', function () {
     return view('bookhotel');
 });
-
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -29,10 +29,10 @@
     background-image: url(/images/beach-1761410.jpg?92d49b1fa3a0f8cfe51f17158fa73081);
   }
   50% {
-    background-image: url(/images/beach-1761410.jpg?92d49b1fa3a0f8cfe51f17158fa73081);
+    background-image: url(/images/beacvn.jpg?84f5cbadefb0a925e16cd4ac5c500b82);
   }
   100% {
-    background-image: url(/images/beach-1761410.jpg?92d49b1fa3a0f8cfe51f17158fa73081);
+    background-image: url(/images/Langkawi.jpg?09eade207c279355b925d50129eeb90c);
   }
 }
 
@@ -41,10 +41,10 @@
     background-image: url(/images/beach-1761410.jpg?92d49b1fa3a0f8cfe51f17158fa73081);
   }
   50% {
-    background-image: url(/images/beach-1761410.jpg?92d49b1fa3a0f8cfe51f17158fa73081);
+    background-image: url(/images/beacvn.jpg?84f5cbadefb0a925e16cd4ac5c500b82);
   }
   100% {
-    background-image: url(/images/beach-1761410.jpg?92d49b1fa3a0f8cfe51f17158fa73081);
+    background-image: url(/images/Langkawi.jpg?09eade207c279355b925d50129eeb90c);
   }
 }
 .search-form {
@@ -128,6 +128,41 @@
   box-shadow: none;
 }
 
+.inputdate[type=date] {
+  height: 100%;
+  font-size: 1.5rem;
+  box-shadow: none;
+}
+
+.addressgo {
+  flex: 1;
+  flex-direction: row;
+}
+
+.addressgo select {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.datepick {
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.buttontour {
+  justify-content: space-around;
+}
+
+.buttontour button {
+  height: 100%;
+  width: 100%;
+}
+
+.buttonhotelmain {
+  justify-content: flex-end;
+}
+
 /*max-width:1366px*/
 /*max-width:1200px*/
 /*max-width:1199px*/
@@ -143,6 +178,11 @@
 /*max-width:540px*/
 /*max-width:480px*/
 @media screen and (max-width: 440px) {
+  .header-index {
+    height: 800px;
+    padding-bottom: 30px;
+  }
+
   .menuindex {
     padding-left: 0px;
     padding-right: 0px;
@@ -160,6 +200,22 @@
 
   .icon-search-tour {
     display: none;
+  }
+
+  .quesion {
+    display: none;
+  }
+
+  .datepick {
+    margin-bottom: 10px;
+  }
+
+  .addressgo {
+    margin-bottom: 10px;
+  }
+
+  .peoplehotel1 .peoplehotel2 {
+    padding: 5px;
   }
 }
 /*max-width:400px*/
