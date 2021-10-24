@@ -19,7 +19,9 @@ Route::get('/', function () {
 Route::get('/demo', function () {
     return view('demo');
 });
-
+Route::get('/cc', function () {
+    return view('bookhotel');
+});
 
 Auth::routes();
 
