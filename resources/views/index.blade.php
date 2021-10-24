@@ -38,25 +38,42 @@
 
 							
 								
-									<div class="col-sm-1 col-md-1 col-lg-1 text-center p-2"> 
-										<i class="fas fa-map-marker-alt fa-3x text-info"></i>
+									<div class="col-sm-1 col-md-1 col-lg-1 text-center p-2 icon-search-tour"> 
+										<i class="fas fa-map-marker-alt fa-3x text-info icon-search-tour" ></i>
 									</div>
 										<div  class=" col-sm-11 col-md-11 col-lg-11  input-search-tour">
 											
-											<input type="text" class="form-control border-bottom" id="exampleInputEmail1" aria-describedby="emailHelp">
+											<input type="text" class="form-control border-bottom" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nhập Địa Chỉ Tìm Kiếm">
 											
 										</div>
 							
   
 							</div>
-							<div class="row">
-								Nguyen Dinh At
+							<div class="row border  me-3 ms-3 mt-3   ">
+
+							
 								
-							</div>
+								<div class="col-sm-4 col-md-4 col-lg-4"> 
+									s
+								</div>
+								<div  class=" col-sm-4 col-md-4 col-lg-4  ">
+									s
+								</div>
+								<div  class=" col-sm-4 col-md-4 col-lg-4  ">
+									ư
+								</div>
+						
+
+						</div>
+
+
 							<div class="row">
 								<button class="btn btn-primary" type="submit"> Tìm Kiếm</button>
 								
 							</div>
+
+
+
 
 						</form>
 
@@ -78,6 +95,8 @@
 	
 
 	</header>
+
+
 
 	<main>
 

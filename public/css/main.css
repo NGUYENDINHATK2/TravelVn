@@ -157,6 +157,10 @@
     top: 50px;
     left: 0px;
   }
+
+  .icon-search-tour {
+    display: none;
+  }
 }
 /*max-width:400px*/
 /*max-width:350px*/
