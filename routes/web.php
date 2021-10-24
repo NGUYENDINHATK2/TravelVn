@@ -22,6 +22,11 @@ Route::get('/demo', [App\Http\Controllers\demo::class, 'index']);
 Route::get('/cc', function () {
     return view('bookhotel');
 });
+
+Route::get('/resulthotel', function () {
+    return view('resulthotel');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
