@@ -102,6 +102,9 @@
 
 
 @media screen and (max-width: 440px){
+    .main-container{
+        padding: 20px;
+    }
 	.header-index{
         height:800px;
         padding-bottom: 30px;
@@ -138,6 +141,13 @@
    }
    .peoplehotel1 .peoplehotel2{
        padding: 5px;
+   }
+  
+   .carousel{
+       display: none;
+   }
+   .hidden-sm{
+       display: none;
    }
 
 }/*max-width:400px*/
