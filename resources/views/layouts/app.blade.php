@@ -28,7 +28,7 @@
 
 </head>
 <body>
-    <div id="app">
+    <div id="app" class="">
         <nav class="navbar navbar-expand-sm bg-info navbar-dark menuindex flex-top">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">TravelVn</a>
@@ -103,6 +103,8 @@
         <div>
             @include('layouts.footer')
         </div>
+
+        
     </div>
 </body>
 </html>
