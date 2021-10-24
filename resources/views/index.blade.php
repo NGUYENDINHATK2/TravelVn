@@ -38,8 +38,8 @@
 
 							
 								
-									<div class="col-sm-1 col-md-1 col-lg-1 text-center p-2 icon-search-tour"> 
-										<i class="fas fa-map-marker-alt fa-3x text-info icon-search-tour" ></i>
+									<div class="col-sm-1 col-md-1 col-lg-1 text-center p-3 icon-search-tour"> 
+										<i class="fas fa-map-marker-alt fa-2x text-info icon-search-tour" ></i>
 									</div>
 										<div  class=" col-sm-11 col-md-11 col-lg-11  input-search-tour">
 											

@@ -16,7 +16,7 @@ use App\Http\Controllers\demo;
 
 Route::get('/', function () {
     return view('index');
-});
+})->middleware('auth');
 Route::get('/demo', [App\Http\Controllers\demo::class, 'index']);
 
 Route::get('/cc', function () {
