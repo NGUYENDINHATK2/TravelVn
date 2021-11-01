@@ -16,7 +16,7 @@ use App\Http\Controllers\demo;
 
 Route::get('/', function () {
     return view('index');
-})->middleware('auth');
+});
 Route::get('/demo', [App\Http\Controllers\demo::class, 'index']);
 
 Route::get('/cc', function () {
@@ -29,4 +29,4 @@ Route::get('/resulthotel', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/index', [App\Http\Controllers\HomeController::class, 'index'])->name('index');

@@ -27,26 +27,31 @@
 
 </head>
 <body>
-    <div id="app" class="">
-        <nav class="navbar navbar-expand-sm bg-info navbar-dark menuindex flex-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">TravelVn</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
+    <div id="app" class=""> 
+        <nav class="navbar navbar-expand-sm    menuindex flex-top">
+            <div class="container-fluid   " style="align-items: center; ">
+              <a class="navbar-brand menuindex__logo" href="/" ><b class=" menuindex__logo--text1">Travel</b><b class=" menuindex__logo--text2">vn</b></a>
+              <button class="navbar-toggler menuindex__btnmenu   text-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                {{-- <span class="navbar-toggler-icon menuindex__btnmenu  " ></span> --}}
+
+                <i class="fas fa-bars navbar__toggler--icon  "></i>
               </button>
 
 
-              <div class="collapse navbar-collapse menuindex-item" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Trang Chủ</a>
+              <div class="collapse navbar-collapse     menuindex_item" id="collapsibleNavbar">
+                <ul class="navbar-nav menumain     ">
+                  <li class="nav-item pe-5    ">
+                    <a class="{{request()->is('/')? 'nav-link text-dark   main__a  main  ' : 'nav-link text-dark menu__item    '}} " href="#" ><b>Trang Chủ</b></a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Về Chúng Tôi</a>
+                  <li class="nav-item pe-5">
+                    <a class="{{request()->is('a')? 'nav-link text-dark  main__a  main    ' : 'nav-link text-dark menu__item  '}} " href="#"><b>Về Chúng Tôi</b></a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Khám Phá</a>
-                  </li>    
+                  <li class="nav-item pe-5">
+                    <a class="{{request()->is('b')? 'nav-link text-dark  main__a  main  ' : 'nav-link text-dark menu__item  '}} " href="#"><b>Khám Phá</b></a>
+                  </li>   
+                  <li class="nav-item pe-5">
+                    <a class="{{request()->is('c')? 'nav-link text-dark   main__a main'  : 'nav-link text-dark menu__item  '}} " href="#"><b>Khám Phá</b></a>
+                  </li>  
                 </ul>
                   
                 <ul class="navbar-nav ml-auto ">
@@ -54,26 +59,26 @@
                   @guest
                       @if (Route::has('login'))
                           <li class="nav-item">
-                              <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                              <a class="nav-link text-dark " href="{{ route('login') }}"><b>{{ __('Đăng Nhập') }}</b></a>
                           </li>
                       @endif
 
                       @if (Route::has('register'))
                           <li class="nav-item">
-                              <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                              <a class="nav-link text-dark " href="{{ route('register') }}"><b>{{ __('Đăng Ký') }}</b></a>
                           </li>
                       @endif
                   @else
                       <li class="nav-item dropdown">
-                          <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                              {{ Auth::user()->name }}
+                          <a id="navbarDropdown" class="nav-link text-dark dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                              <b>{{ Auth::user()->name }}</b>
                           </a>
 
                           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="{{ route('logout') }}"
+                              <a class="dropdown-item text-danger" href="{{ route('logout') }}"
                                  onclick="event.preventDefault();
                                                document.getElementById('logout-form').submit();">
-                                  {{ __('Logout') }}
+                                 <b> {{ __('Đăng Xuất') }}</b>
                               </a>
 
                               <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">

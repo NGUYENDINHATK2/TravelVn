@@ -6,10 +6,38 @@
 .menuindex {
   padding-left: 240px;
   padding-right: 240px;
+  background-color: #dffafa;
   position: relative;
 }
-.menuindex .menuindex-item {
+.menuindex .menuindex_item {
   justify-content: flex-end;
+}
+.menuindex .menuindex__logo {
+  font-size: 40px;
+}
+.menuindex .menuindex__logo .menuindex__logo--text1 {
+  color: #26f1f8;
+}
+.menuindex .menuindex__logo .menuindex__logo--text2 {
+  color: #d758f7;
+}
+.menuindex .menuindex_item .menumain {
+  padding-right: 100px;
+}
+.menuindex .menuindex_item .menumain ul li {
+  padding-right: 50px;
+}
+.menuindex .menuindex_item ul li a {
+  font-size: 20px;
+}
+.menuindex .menuindex_item ul li a:hover {
+  font-size: 21px;
+}
+.menuindex .main {
+  border-bottom: 5px solid #d758f7;
+}
+.menuindex .main__a {
+  font-size: 20px;
 }
 
 .header-index {
@@ -109,6 +137,10 @@
 
 .menu-search {
   border-radius: 20px 20px 0px 0px;
+}
+
+.icon-search-tour {
+  align-items: center;
 }
 
 .input-search-tourmain {
@@ -265,11 +297,386 @@
 /*max-width:1024px*/
 /*max-width:992px*/
 /*max-width:991px*/
+@media screen and (max-width: 768px) {
+  .main-container {
+    padding: 20px;
+  }
+
+  .header-index {
+    height: 800px;
+    padding-bottom: 30px;
+  }
+
+  .menuindex {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+  }
+  .menuindex .menuindex-item {
+    margin-left: 0px;
+  }
+
+  .search-form {
+    width: 100%;
+    top: 50px;
+    left: 0px;
+  }
+
+  .icon-search-tour {
+    display: none;
+  }
+
+  .quesion {
+    display: none;
+  }
+
+  .datepick {
+    margin-bottom: 10px;
+  }
+
+  .addressgo {
+    margin-bottom: 10px;
+  }
+
+  .peoplehotel1 .peoplehotel2 {
+    padding: 5px;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+
+  .logo-login {
+    display: none;
+  }
+
+  .loginmain {
+    padding: 20px;
+  }
+
+  .loginmain {
+    height: auto;
+  }
+
+  .loginmain-form {
+    height: auto;
+  }
+
+  .form-login form {
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 55px;
+  }
+}
 /*max-width:768px*/
 /*max-width:767px*/
+@media screen and (max-width: 660px) {
+  .main-container {
+    padding: 20px;
+  }
+
+  .header-index {
+    height: 800px;
+    padding-bottom: 30px;
+  }
+
+  .menuindex {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+  }
+  .menuindex .menuindex-item {
+    margin-left: 0px;
+  }
+
+  .search-form {
+    width: 100%;
+    top: 50px;
+    left: 0px;
+  }
+
+  .icon-search-tour {
+    display: none;
+  }
+
+  .quesion {
+    display: none;
+  }
+
+  .datepick {
+    margin-bottom: 10px;
+  }
+
+  .addressgo {
+    margin-bottom: 10px;
+  }
+
+  .peoplehotel1 .peoplehotel2 {
+    padding: 5px;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+
+  .logo-login {
+    display: none;
+  }
+
+  .loginmain {
+    padding: 20px;
+  }
+
+  .loginmain {
+    height: auto;
+  }
+
+  .loginmain-form {
+    height: auto;
+  }
+
+  .form-login form {
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 55px;
+  }
+}
 /*max-width:660px*/
+@media screen and (max-width: 640px) {
+  .main-container {
+    padding: 20px;
+  }
+
+  .header-index {
+    height: 800px;
+    padding-bottom: 30px;
+  }
+
+  .menuindex {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+  }
+  .menuindex .menuindex-item {
+    margin-left: 0px;
+  }
+
+  .search-form {
+    width: 100%;
+    top: 50px;
+    left: 0px;
+  }
+
+  .icon-search-tour {
+    display: none;
+  }
+
+  .quesion {
+    display: none;
+  }
+
+  .datepick {
+    margin-bottom: 10px;
+  }
+
+  .addressgo {
+    margin-bottom: 10px;
+  }
+
+  .peoplehotel1 .peoplehotel2 {
+    padding: 5px;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+
+  .logo-login {
+    display: none;
+  }
+
+  .loginmain {
+    padding: 20px;
+  }
+
+  .loginmain {
+    height: auto;
+  }
+
+  .loginmain-form {
+    height: auto;
+  }
+
+  .form-login form {
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 55px;
+  }
+}
 /*max-width:640px*/
+@media screen and (max-width: 540px) {
+  .main-container {
+    padding: 20px;
+  }
+
+  .header-index {
+    height: 800px;
+    padding-bottom: 30px;
+  }
+
+  .menuindex {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+  }
+  .menuindex .menuindex-item {
+    margin-left: 0px;
+  }
+
+  .search-form {
+    width: 100%;
+    top: 50px;
+    left: 0px;
+  }
+
+  .icon-search-tour {
+    display: none;
+  }
+
+  .quesion {
+    display: none;
+  }
+
+  .datepick {
+    margin-bottom: 10px;
+  }
+
+  .addressgo {
+    margin-bottom: 10px;
+  }
+
+  .peoplehotel1 .peoplehotel2 {
+    padding: 5px;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+
+  .logo-login {
+    display: none;
+  }
+
+  .loginmain {
+    padding: 20px;
+  }
+
+  .loginmain {
+    height: auto;
+  }
+
+  .loginmain-form {
+    height: auto;
+  }
+
+  .form-login form {
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 55px;
+  }
+}
 /*max-width:540px*/
+@media screen and (max-width: 480px) {
+  .main-container {
+    padding: 20px;
+  }
+
+  .header-index {
+    height: 800px;
+    padding-bottom: 30px;
+  }
+
+  .menuindex {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+  }
+  .menuindex .menuindex-item {
+    margin-left: 0px;
+  }
+
+  .search-form {
+    width: 100%;
+    top: 50px;
+    left: 0px;
+  }
+
+  .icon-search-tour {
+    display: none;
+  }
+
+  .quesion {
+    display: none;
+  }
+
+  .datepick {
+    margin-bottom: 10px;
+  }
+
+  .addressgo {
+    margin-bottom: 10px;
+  }
+
+  .peoplehotel1 .peoplehotel2 {
+    padding: 5px;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+
+  .logo-login {
+    display: none;
+  }
+
+  .loginmain {
+    padding: 20px;
+  }
+
+  .loginmain {
+    height: auto;
+  }
+
+  .loginmain-form {
+    height: auto;
+  }
+
+  .form-login form {
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 55px;
+  }
+}
 /*max-width:480px*/
 @media screen and (max-width: 440px) {
   .main-container {
@@ -347,5 +754,155 @@
   }
 }
 /*max-width:400px*/
+@media screen and (max-width: 350px) {
+  .main-container {
+    padding: 20px;
+  }
+
+  .header-index {
+    height: 800px;
+    padding-bottom: 30px;
+  }
+
+  .menuindex {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+  }
+  .menuindex .menuindex-item {
+    margin-left: 0px;
+  }
+
+  .search-form {
+    width: 100%;
+    top: 50px;
+    left: 0px;
+  }
+
+  .icon-search-tour {
+    display: none;
+  }
+
+  .quesion {
+    display: none;
+  }
+
+  .datepick {
+    margin-bottom: 10px;
+  }
+
+  .addressgo {
+    margin-bottom: 10px;
+  }
+
+  .peoplehotel1 .peoplehotel2 {
+    padding: 5px;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+
+  .logo-login {
+    display: none;
+  }
+
+  .loginmain {
+    padding: 20px;
+  }
+
+  .loginmain {
+    height: auto;
+  }
+
+  .loginmain-form {
+    height: auto;
+  }
+
+  .form-login form {
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 55px;
+  }
+}
 /*max-width:350px*/
+@media screen and (max-width: 320px) {
+  .main-container {
+    padding: 20px;
+  }
+
+  .header-index {
+    height: 800px;
+    padding-bottom: 30px;
+  }
+
+  .menuindex {
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+  }
+  .menuindex .menuindex-item {
+    margin-left: 0px;
+  }
+
+  .search-form {
+    width: 100%;
+    top: 50px;
+    left: 0px;
+  }
+
+  .icon-search-tour {
+    display: none;
+  }
+
+  .quesion {
+    display: none;
+  }
+
+  .datepick {
+    margin-bottom: 10px;
+  }
+
+  .addressgo {
+    margin-bottom: 10px;
+  }
+
+  .peoplehotel1 .peoplehotel2 {
+    padding: 5px;
+  }
+
+  .carousel {
+    display: none;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+
+  .logo-login {
+    display: none;
+  }
+
+  .loginmain {
+    padding: 20px;
+  }
+
+  .loginmain {
+    height: auto;
+  }
+
+  .loginmain-form {
+    height: auto;
+  }
+
+  .form-login form {
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 55px;
+  }
+}
 /*max-width:320px*/
